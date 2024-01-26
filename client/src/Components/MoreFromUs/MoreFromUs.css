@@ -1,0 +1,56 @@
+.moreFromUs{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.moreFromUs .moreFromUsText{
+    font-size: 40px;
+    font-weight: 600;
+    color: var(--gray);
+    margin-bottom: 30px;
+}
+
+.moreFromUs .container{
+    margin-top: 10px;
+}
+
+.moreFromUs .container .card{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    transition: all 300ms ease;
+}
+
+.moreFromUs .container .card:hover{
+    background: var(--bg-4);
+}
+
+.moreFromUs .container .card .imgcard{
+    width: 100%;
+    height: 250px
+}
+
+.moreFromUs .container .card .imgcard .img{
+    width: 100%;
+    height: 100%;
+}
+
+.slick-slide > div{
+    margin: 0 0.7rem;
+}
+
+.moreFromUs .container .card .text{
+    color: var(--gray);
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.moreFromUs .container .card small{
+    font-size: 14px;
+    color: var(--light-gray);
+}
