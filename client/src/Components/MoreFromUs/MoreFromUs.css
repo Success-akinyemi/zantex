@@ -54,3 +54,7 @@
     font-size: 14px;
     color: var(--light-gray);
 }
+
+@media screen and (max-width: 610px) {
+
+}

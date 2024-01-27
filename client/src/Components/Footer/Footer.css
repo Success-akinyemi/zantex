@@ -142,3 +142,24 @@
 .footer .middle .bottom .pLink:hover{
     color: var(--bg-2);
 }
+
+@media screen and (max-width: 950px){
+    .footer .content{
+        gap: 75px;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .footer .content{
+        flex-direction: column;
+    }
+
+    .footer .middle .top{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .footer .middle .bottom{
+        flex-direction: column;
+    }
+}

@@ -96,3 +96,10 @@
 .aboutUs .container .right .learnMore:hover{
     background:  var(--light);
 }
+
+@media screen and (max-width: 950px) {
+    .aboutUs .container{
+        flex-direction: column;
+    }
+}
+
