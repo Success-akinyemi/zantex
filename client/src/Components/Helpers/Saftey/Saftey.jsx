@@ -1,4 +1,4 @@
-import './Saftey.CSS'
+import './Saftey.css'
 
 function Saftey() {
   return (
