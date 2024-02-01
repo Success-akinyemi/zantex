@@ -12,7 +12,7 @@ export const partnerWithZandex = [
 export const company = [
     {
         text: 'About us',
-        link: 'aboutUs'
+        link: 'about-us'
     },
     {
         text: 'Careers',
