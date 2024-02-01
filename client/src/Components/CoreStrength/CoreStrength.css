@@ -1,0 +1,79 @@
+.coreStrength{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+
+.coreStrength h1{
+    font-size: 64px;
+    font-weight: 600;
+    color: var(--gray);
+}
+
+.coreStrength .values{
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.coreStrength .values .value{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.coreStrength .values .value.row{
+    flex-direction: row-reverse;
+}
+
+.coreStrength .values .value .left{
+    width: 100%;
+}
+
+.coreStrength .values .value .left img{
+    width: 100%;
+    border-radius: 12px;
+}
+
+.coreStrength .values .value .right{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.coreStrength .values .value .right p{
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--gray);
+    margin-bottom: 25px;
+}
+
+.coreStrength .values .value .right h5{
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--gray);
+    margin-bottom: 12px;
+}
+
+.coreStrength .values .value .right .small{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--light-gray);
+    margin-bottom: 28px;
+}
+
+.coreStrength .values .value .right .btn{
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--white);
+    background: var(--bg-2);
+    padding: 13px 18px;
+    transition: all 300ms ease;
+    border-radius: 20px;
+}
+
+.coreStrength .values .value .right .btn:hover{
+    background: var(--bg-2-dark);
+}

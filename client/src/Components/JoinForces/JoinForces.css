@@ -1,0 +1,73 @@
+.joinForces{
+    background: var(--bg-8);
+    width: 100vw;
+}
+
+.joinForces .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.joinForces .content h1{
+    font-size: 64px;
+    font-weight: 600;
+    color: var(--gray);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.joinForces .content p{
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--light-gray);
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.joinForces .content .btn{
+    font-size: 18px;
+    color: var(--white);
+    font-weight: 600;
+    background: var(--bg-2);
+    transition: all 300ms ease;
+    border-radius: 22px;
+    padding: 15px 20px;
+    margin-bottom: 65px;
+}
+
+.joinForces .content .btn:hover{
+    background: var(--bg-2-dark);
+}
+
+.joinForces .content .cards{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.joinForces .content .cards .card{
+    width: 512px;
+}
+
+.joinForces .content .cards .card img{
+    border-radius: 10px;
+    width: 100%;
+}
+
+.joinForces .content .cards .card h3{
+    font-weight: 600;
+    font-size: 32px;
+    color: var(--gray);
+}
+
+.joinForces .content .cards .card p{
+    color: var(--light-gray);
+    font-weight: 400;
+    font-size: 16px;
+    text-align: left;
+}

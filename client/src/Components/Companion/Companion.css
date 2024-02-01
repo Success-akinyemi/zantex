@@ -1,0 +1,26 @@
+.companion{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.companion .info{
+    display: flex;
+    margin-left: 200px;
+    flex-direction: column;
+    width: 60%;
+}
+
+.companion h1{
+    font-size: 40px;
+    font-weight: 600;
+    color: var(--gray);
+    margin-bottom: 30px;
+}
+
+.companion p{
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--light-gray);
+    margin-bottom: 40px;
+}

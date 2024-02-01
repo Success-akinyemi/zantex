@@ -1,0 +1,244 @@
+.dropDown{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1000;
+    background: var(--bg-6);
+    display: grid;
+    align-items: flex-start;
+    opacity: 0;
+    transition: 0.4s ease-in-out;
+}
+
+.dropDown.open{
+    top: 0;
+    opacity: 1;
+}
+
+.dropDown.close{
+    left: 0;
+    top: -100%;
+}
+
+.dropDown .header{
+    width: 100%;
+    height: 61px;
+    background: transparent;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 999;
+}
+
+.dropDown .header.scroll{
+    background: var(--bg-5);
+    color: var(--gray);
+}
+
+.dropDown .header .logo{
+    font-size: 40px;
+    color: var(--white);
+    cursor: pointer;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.dropDown .header .logo.gray,
+.dropDown .header .menu.gray{
+    color: var(--gray);
+}
+
+.dropDown .header .menu{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-size: 18px;
+    color: var(--white);
+}
+
+.dropDown .header .menu .signupBtn .signupLink{
+    padding: 10px 15px;
+    border-radius: 20px;
+    font-size: 16px;
+    background: var(--white);
+    border: none;
+    outline: none;
+    font-weight: 500;
+    color: var(--gray);
+}
+
+.dropDown .header .menu.gray .signupBtn .signupLink{
+    background: var(--gray);
+    color: var(--white);
+}
+
+.dropDown .header .menu .closeBtn .icon{
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.dropDown .content{
+    display: flex;
+    margin-top: 140px;
+    overflow-y: auto;
+    flex-direction: column;
+
+}
+
+.dropDown .content .menus{
+    display: flex;
+    gap: 10px;
+    overflow-y: auto;
+}
+
+.dropDown .content .main{
+    background: var(--bg-7);
+    width: 75%;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.dropDown .content .main .top{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.dropDown .content .main .top .links{
+    padding: 11px 15px;
+    color: var(--gray);
+    font-size: 16px;
+    font-weight: 500;
+    transition: all 300ms ease;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.dropDown .content .main .top .links:hover{
+    background: var(--white);
+}
+
+.dropDown .content .main .top .links.active{
+    background: var(--white);
+}
+
+.dropDown .content .side{
+    background: var(--bg-7);
+    width: 25%;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.dropDown .content .side .sideMenu{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    transition: all 300ms ease;
+    padding: 10px;
+}
+
+.dropDown .content .side .sideMenu:hover{
+    background: var( --light-2);
+    border-radius: 10px;
+}
+
+.dropDown .content .side .sideMenu .one{
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.dropDown .content .side .sideMenu h3{
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--light-gray);
+}
+
+.dropDown .content .side .sideMenu p{
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--light);
+}
+
+.dropDown .content .side .sideMenu .arrow{
+    font-size: 25px;
+}
+
+.dropDown .content .foot{
+    margin-top: 8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dropDown .content .foot .socials{
+    display: flex;
+    font-size: 18px;
+    color: var(--light-gray);
+    gap: 10px;
+}
+
+.dropDown .content .foot .socials .social:hover{
+    color: var(--gray);
+}
+
+.dropDown .content .foot .policy{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+@media screen and (max-width: 1400px) {
+
+
+    .dropDown .header .menu .support{
+        display: none;
+    }
+
+    .dropDown .header .menu .signupBtn{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .dropDown .content .main{
+        width: 100%;
+    }
+
+    .dropDown .content .side{
+        display: none;
+    }
+
+    .dropDown .content .foot{
+        margin-top: auto;
+    }
+
+    .dropDown .content{
+        min-height: 80vh;
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .dropDown{
+        background: var(--white);
+    }
+
+    .dropDown .content .foot{
+        flex-direction: column;
+    }
+
+    .dropDown .content .menus .main{
+        width: 100%;
+        background: none;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .dropDown .content .foot .policy{
+        flex-direction: column;
+    }
+}

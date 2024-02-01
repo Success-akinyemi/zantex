@@ -1,0 +1,31 @@
+.imageArray{
+    width: 100%;
+}
+
+.imageArray .images{
+    display: flex;
+    gap: 15px;
+    position: relative;
+}
+
+.imageArray .images .imageCard{
+    flex: 1;
+}
+
+.imageArray .images .imageCard img{
+    border-radius: 30px;
+    width: 100%;
+    max-width: 100%;
+}
+
+.imageArray .images .imageCard .img2{
+    margin-top: -70px;
+}
+
+.imageArray .images .imageCard .img3{
+    margin-top: -50px;
+}
+
+.imageArray .images .imageCard .img4{
+    margin-top: -20px;
+}

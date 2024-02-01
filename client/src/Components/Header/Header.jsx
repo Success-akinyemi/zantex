@@ -3,7 +3,7 @@ import './Header.css'
 import { IoMenu } from "react-icons/io5";
 import { useEffect, useState } from 'react';
 
-function Header() {
+function Header({toggle}) {
     const [isScroll, setIsScroll] = useState(false)
 
 
@@ -28,7 +28,7 @@ function Header() {
             <div className="signupBtn">
                 <Link className='link signupLink'>sign up</Link>
             </div>
-            <div className="hamburger">
+            <div className="hamburger" onClick={toggle}>
                 <IoMenu className='menuIcon' />
             </div>
         </div>

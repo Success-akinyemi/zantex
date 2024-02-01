@@ -1,0 +1,30 @@
+.thrive{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.thrive h1{
+    font-weight: 600;
+    font-size: 64px;
+    color: var(--gray);
+    margin-bottom: 30px;
+}
+
+.thrive p{
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--light-gray);
+    margin-left: 80px;
+    margin-bottom: 12px;
+}
+
+.thrive i{
+    margin-left: 80px;
+    color: var(--light-gray);
+    font-weight: 400;
+}
+
+.thrive .img{
+    margin-top: 150px;
+}

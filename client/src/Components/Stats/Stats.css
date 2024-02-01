@@ -1,0 +1,40 @@
+.stats{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+
+.stats .top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.stats .top .text{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.stats .top .text .main{
+    font-size: 64px;
+    font-weight: 600;
+    color: var(--bg-2-dark);
+}
+
+.stats .top .text .sub{
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--gray);
+}
+
+.stats .middle{
+    margin-top: 150px;
+}
+
+.stats .middle h1{
+    font-size: 64px;
+    font-weight: 600;
+    color: var(--gray);
+}

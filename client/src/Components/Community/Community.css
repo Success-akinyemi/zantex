@@ -1,0 +1,31 @@
+.community{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.community h1{
+    font-size: 64px;
+    font-weight: 600;
+    color: var(--gray);
+    margin-bottom: 40px;
+}
+
+.community p{
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--light-gray);
+    margin-bottom: 80px;
+}
+
+.community .videoCard{
+    width: 100%;
+    border-radius: 30px;
+}
+
+.community .videoCard video{
+    width: 100%;
+    border-radius: 30px;
+}
