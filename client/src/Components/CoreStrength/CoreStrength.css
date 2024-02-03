@@ -77,3 +77,13 @@
 .coreStrength .values .value .right .btn:hover{
     background: var(--bg-2-dark);
 }
+
+@media screen and (max-width: 700px) {
+    .coreStrength .values .value{
+        flex-direction: column;
+    }
+
+    .coreStrength .values .value.row{
+        flex-direction: column;
+    }
+}

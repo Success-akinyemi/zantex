@@ -24,3 +24,10 @@
     color: var(--light-gray);
     margin-bottom: 40px;
 }
+
+@media screen and (max-width: 950px) {
+    .companion .info{
+        width: 100%;
+        margin-left: 0;
+    }
+}

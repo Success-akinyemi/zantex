@@ -28,3 +28,19 @@
 .thrive .img{
     margin-top: 150px;
 }
+
+@media screen and (max-width: 768px) {
+    .thrive h1{
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .thrive p{
+        margin-left: 40px;
+    }
+
+    .thrive i{
+        margin-left: 40px;
+    }
+}

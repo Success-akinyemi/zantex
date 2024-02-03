@@ -29,3 +29,13 @@
     width: 100%;
     border-radius: 30px;
 }
+
+@media screen and (max-width: 768px) {
+    .community h1{
+        font-size: 50px;
+    }
+
+    .community p{
+        width: 100%;
+    }
+}

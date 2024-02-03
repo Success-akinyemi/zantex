@@ -71,3 +71,16 @@
     font-size: 16px;
     text-align: left;
 }
+
+
+@media screen and (max-width: 950px) {
+    .joinForces .content .cards{
+        flex-direction: column;
+        width: 100%;
+        gap: 20px;
+    }
+
+    .joinForces .content .cards .card{
+        width: 100%;
+    }
+}

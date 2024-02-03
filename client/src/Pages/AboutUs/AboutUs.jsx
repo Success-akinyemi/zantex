@@ -2,6 +2,7 @@ import Community from '../../Components/Community/Community'
 import Companion from '../../Components/Companion/Companion'
 import CoreStrength from '../../Components/CoreStrength/CoreStrength'
 import DropDown from '../../Components/DropDown/DropDown'
+import Footer from '../../Components/Footer/Footer'
 import JoinForces from '../../Components/JoinForces/JoinForces'
 import PageHeader from '../../Components/PageHeader/PageHeader'
 import PageHero from '../../Components/PageHero/PageHero'
@@ -40,6 +41,9 @@ function AboutUs({isOpen, toggle}) {
         </div>
         <div className="h-1">
           <CoreStrength />
+        </div>
+        <div className="h-2">
+          <Footer />
         </div>
     </div>
   )

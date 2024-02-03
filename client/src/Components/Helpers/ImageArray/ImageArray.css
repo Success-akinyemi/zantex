@@ -8,6 +8,12 @@
     position: relative;
 }
 
+.imageArray .images .card1,
+.imageArray .images .card2{
+    display: flex;
+    gap: 15px;
+}
+
 .imageArray .images .imageCard{
     flex: 1;
 }
@@ -28,4 +34,19 @@
 
 .imageArray .images .imageCard .img4{
     margin-top: -20px;
+}
+
+@media screen and (max-width: 950px) {
+    .imageArray .images .card1,
+    .imageArray .images .card2{
+        flex-direction: column;
+    }
+
+    .imageArray .images .imageCard .img2{
+        margin-top: 10px;
+    }
+
+    .imageArray .images .imageCard .img4{
+        margin-top: -50px;
+    }
 }

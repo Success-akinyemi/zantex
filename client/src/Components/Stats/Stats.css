@@ -38,3 +38,37 @@
     font-weight: 600;
     color: var(--gray);
 }
+
+@media screen and (max-width: 768px) {
+    .stats .middle h1{
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .stats .top{
+        flex-direction: column;
+        width: 100%;
+        gap: 30px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .stats .top .text{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .stats .top .text .main{
+        width: 85%;
+        text-align: center;
+        font-size: 80px;
+    }
+
+    .stats .top .text .sub{
+        width: 85%;
+        text-align: center;
+        font-size: 18px;
+    }
+}

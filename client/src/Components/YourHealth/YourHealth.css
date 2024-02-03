@@ -42,3 +42,10 @@
 .yourHealth .img{
     margin-top: 100px;
 }
+
+@media screen and (max-width: 950px) {
+    .yourHealth .info{
+        width: 100%;
+        margin-left: 0;
+    }
+}

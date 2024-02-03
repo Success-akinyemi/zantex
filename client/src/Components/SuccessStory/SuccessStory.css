@@ -42,3 +42,10 @@
 .successStory .img{
     margin-top: 180px;
 }
+
+@media screen and (max-width: 950px) {
+    .successStory .info{
+        width: 100%;
+        margin-left: 0;
+    }
+}
